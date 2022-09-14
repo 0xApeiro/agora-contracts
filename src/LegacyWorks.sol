@@ -23,7 +23,7 @@ contract LegacyWorks is ERC721 {
   }
 
   function _baseURI() internal view virtual returns (string memory) {
-    return "ipfs://QmSnMcr8T8zyXpWndrNt5TqCUZzi9hd8ePQWebeaH2YMCm/";
+    return "ipfs://QmbG8rfSQeWD19WW7BBz4cZNZmkiyZxJrpQdwntMziu7v1/";
   }
 
   function mint(uint256 amount) external {
